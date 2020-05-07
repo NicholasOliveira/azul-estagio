@@ -8,6 +8,21 @@ a{
 a:hover{
   text-decoration: none !important;
 }
+.position-relative{
+  position: relative;
+}
+.z-index-2{
+  z-index: 2;
+}
+.z-index-1{
+  z-index: 1;
+}
+.z-index-0{
+  z-index: 0;
+}
+.top--65{
+  top: -65px;
+}
 .img-005{
   margin-top: -50px;
   position: relative;
@@ -42,6 +57,9 @@ a:hover{
 }
 .max-width-560-important{
   max-width: 560px !important;
+}
+.background-ffffff{
+  background-color: #ffffff;
 }
 .background-fffce2{
   background-color: #fffce2;
@@ -143,6 +161,9 @@ a:hover{
 .font-22-16{
   font-size: 22px;
 }
+.font-22-14{
+  font-size: 22px;
+}
 .font-18-16{
   font-size: 18px;
 }
@@ -161,7 +182,23 @@ a:hover{
 .lighter{
   font-weight: lighter;
 }
+.padding-left-10-per-important{
+  padding-left: 10% !important;
+}
+@media screen and (min-width: 990px) and (max-width: 1024px){
+  .nav-item{
+    font-size: 12px;
+    padding-top: 4px;
+  }
+}
 @media screen and (max-width: 768px){
+  .text-section-001{
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .md-top--35{
+    top: -35px;
+  }
   .md-margin-bottom-15{
     margin-bottom: 15px;
   }
@@ -189,6 +226,9 @@ a:hover{
   .font-22-16{
     font-size: 16px;
   }
+  .font-22-14{
+    font-size: 14px;
+  }
   .font-18-16{
     font-size: 16px;
   }
@@ -203,6 +243,9 @@ a:hover{
   }
   .md-padding-bottom-15{
     padding-bottom: 15px;
+  }
+  .md-padding-top-15{
+    padding-top: 15px;
   }
   .md-margin-top-15{
     margin-top: 15px;
@@ -239,6 +282,12 @@ a:hover{
   }
 }
 @media screen and (max-width: 575px){
+  .direction-mb-column-reverse{
+    flex-direction: column-reverse;
+  }
+  .direction-mb-column{
+    flex-direction: column;
+  }
   .mb-margin-top-20{
     margin-top: 20px
   }
