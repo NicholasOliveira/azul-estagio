@@ -1,1 +1,1 @@
-//Lib JS
+//Library JS
