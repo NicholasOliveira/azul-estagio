@@ -1,0 +1,251 @@
+body{
+  font-family: Helvetica, sans-serif !important;
+}
+a{
+  text-decoration: none !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+.img-005{
+  margin-top: -50px;
+  position: relative;
+  z-index: -1;
+}
+.spacer-70{
+  padding: 35px 0px;
+}
+.listagem-match{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.listagem-match li{
+  padding: 7px 0px;
+}
+.btn-interno{
+  color: #fff;
+  background-color: #0b1e40;
+  font-size: 15px;
+  padding: 12px 40px;
+  display: block;
+  text-transform: uppercase;
+  transition: 0.5;
+}
+.btn-interno:hover{
+  opacity: 0.9;
+  transition: 0.5;
+}
+.w-100{
+  width: 100%;
+}
+.max-width-560-important{
+  max-width: 560px !important;
+}
+.background-fffce2{
+  background-color: #fffce2;
+}
+.background-d9eefb{
+  background-color: #d9eefb;
+}
+.background-beeef4{
+  background-color: #beeef4;
+}
+.color-6d6{
+  color: #6d6e71;
+}
+.title-002{
+  padding-bottom: 15px;
+  border-bottom: 3px solid #0b1e40;
+  margin-bottom: 25px;
+}
+.color-0b1{
+  color: #0b1e40;
+}
+.line-height-1{
+  line-height: 1;
+}
+.line-height-1-2{
+  line-height: 1.2;
+}
+.line-height-2{
+  line-height: 2;
+}
+.padding-0-important{
+  padding: 0px !important;
+}
+.padding-100-0{
+  padding: 100px 0px;
+}
+.padding-left-350-important{
+  padding-left: 350px !important;
+}
+.padding-left-250-important{
+  padding-left: 190px !important;
+}
+.padding-left-150-important{
+  padding-left: 150px !important;
+}
+.paddng-right-35-important{
+  padding-right: 35px !important;
+}
+.padding-50-0{
+  padding: 50px 0px;
+}
+.margin-right-10{
+  margin-right: 10px;
+}
+.header{
+  min-height: 82px;
+  border-bottom: 1px solid #c6c6c6;
+}
+.logo{
+  margin-right: 45px;
+  min-height: 40px;
+}
+.nav-item{
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+}
+.redes-sociais-header{
+  min-height: 40px;
+}
+.redes-sociais-header img{
+  align-self: center;
+  margin: 0px 10px;
+}
+.redes-sociais-header img:hover{
+  opacity: 0.5;
+}
+.margin-left-30{
+  margin-left: 30px;
+}
+.text-section-001{
+  color: #6d6e71;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+.padding-left-30{
+  padding-left: 30px;
+}
+.font-50-25{
+  font-size: 50px;
+}
+.font-45-22{
+  font-size: 45px;
+}
+.font-30-20{
+  font-size: 30px;
+}
+.font-22-16{
+  font-size: 22px;
+}
+.font-18-16{
+  font-size: 18px;
+}
+.font-18-14{
+  font-size: 18px;
+}
+.font-16-14{
+  font-size: 16px;
+}
+.bold{
+  font-weight: bold !important;
+}
+.normal{
+  font-weight: normal;
+}
+.lighter{
+  font-weight: lighter;
+}
+@media screen and (max-width: 768px){
+  .md-margin-bottom-15{
+    margin-bottom: 15px;
+  }
+  .padding-50-important{
+    padding: 50px !important;
+  }
+  .padding-20-0-important{
+    padding: 20px !important;
+  }
+  .direction-md-column{
+    flex-direction: column;
+  }
+  .direction-md-column-reverse{
+    flex-direction: column-reverse;
+  }
+  .font-50-25{
+    font-size: 25px;
+  }
+  .font-45-22{
+    font-size: 22px;
+  }
+  .font-30-20{
+    font-size: 20px;
+  }
+  .font-22-16{
+    font-size: 16px;
+  }
+  .font-18-16{
+    font-size: 16px;
+  }
+  .font-18-14{
+    font-size: 14px;
+  }
+  .font-16-14{
+    font-size: 14px;
+  }
+  .md-padding-left-0{
+    padding-left: 0px;
+  }
+  .md-padding-bottom-15{
+    padding-bottom: 15px;
+  }
+  .md-margin-top-15{
+    margin-top: 15px;
+  }
+  .md-margin-bottom-15{
+    margin-bottom: 15px;
+  }
+  .md-margin-left-0{
+    margin-left: 0px;
+  }
+  .md-margin-left-0-important{
+    margin-left: 0px !important;
+  }
+  .md-margin-left-30{
+    margin-left: 30px;
+  }
+  .md-margin-left-0{
+    margin-left: 0px;
+  }
+  .md-margin-top-20{
+    margin-top: 20px
+  }
+  .md-margin-15{
+    margin: 15px 0px;
+  }
+  .md-margin-top-10{
+    margin-top: 10px
+  }
+  .md-padding-20-important{
+    padding: 20px !important;
+  }
+  .md-margin-0{
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 575px){
+  .mb-margin-top-20{
+    margin-top: 20px
+  }
+  .mb-margin-top-15{
+    margin-top: 15px
+  }
+  .mb-margin-top-10{
+    margin-top: 10px
+  }
+}

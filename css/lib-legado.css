@@ -1,0 +1,431 @@
+
+
+@media(min-width:82.5625em) {
+	main {
+		margin-top: 75px
+	}
+}
+
+
+
+@media(min-width:82.5625em) {
+	main section {
+		padding: 24px 0
+	}
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items {
+		position: relative;
+		top: -180px;
+		left: 10px;
+		height: 1200px;
+		margin-bottom: -150px
+	}
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items:before {
+		display: inline-block;
+		width: 400px;
+		height: 120px;
+		content: '';
+		position: absolute;
+		top: 246px;
+		right: 150px;
+		background-image: url(../assets/images/img-plane-02.png);
+		background-size: 80%;
+		background-repeat: no-repeat;
+		background-position: center
+	}
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items:after {
+		display: inline-block;
+		width: 520px;
+		height: 300px;
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-image: url(../assets/images/img-sky.png);
+		background-size: 80%;
+		background-repeat: no-repeat;
+		background-position: center
+	}
+}
+
+main section#decolar .list-items ol li {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #fff;
+	background-color: #b49dc5;
+	border: 10px solid #fff
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li {
+		width: 350px;
+		height: 400px;
+		padding: 112px 24px 24px 112px;
+		align-items: flex-start;
+		justify-items: flex-end
+	}
+}
+
+main section#decolar .list-items ol li:before {
+	display: inline-block;
+	width: 50px;
+	height: 150px;
+	content: '';
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 150px;
+	margin: 24px;
+	background-image: url(../assets/images/img-number-01.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li:before {
+		position: absolute;
+		margin: 48px auto auto 24px
+	}
+}
+
+main section#decolar .list-items ol li p {
+	position: relative;
+	width: 100%;
+	padding-right: 16px
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li p:before {
+		display: inline-block;
+		width: 5px;
+		height: 40px;
+		content: '';
+		position: absolute;
+		top: inherit;
+		left: -35px;
+		right: inherit;
+		bottom: -260px;
+		background-color: #000
+	}
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li p:after {
+		display: inline-block;
+		width: 40px;
+		height: 5px;
+		content: '';
+		position: absolute;
+		top: inherit;
+		left: -35px;
+		right: inherit;
+		bottom: -260px;
+		background-color: #000
+	}
+}
+
+main section#decolar .list-items ol li+li {
+	align-items: center;
+	justify-items: flex-end;
+	width: 100%;
+	background-color: #5f9ac1
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li {
+		top: -170px;
+		left: 150px;
+		width: 400px;
+		height: 250px;
+		padding: 24px 24px 24px 112px
+	}
+}
+
+main section#decolar .list-items ol li+li:before {
+	width: 70px;
+	height: 150px;
+	background-image: url(../assets/images/img-number-02.png)
+}
+
+main section#decolar .list-items ol li+li p {
+	padding-left: 24px;
+	width: 180px
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li p:before {
+		display: inline-block;
+		width: 5px;
+		height: 40px;
+		content: '';
+		position: absolute;
+		top: 50px;
+		left: inherit;
+		right: -260px;
+		bottom: inherit;
+		background-color: #000
+	}
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li p:after {
+		display: inline-block;
+		width: 150px;
+		height: 5px;
+		content: '';
+		position: absolute;
+		top: 50px;
+		left: inherit;
+		right: -260px;
+		bottom: inherit;
+		background-color: #000
+	}
+}
+
+main section#decolar .list-items ol li+li+li {
+	width: 100%;
+	background-color: #db4d93
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li+li {
+		top: -235px;
+		left: 500px;
+		width: 400px;
+		height: 250px
+	}
+}
+
+main section#decolar .list-items ol li+li+li:before {
+	background-image: url(../assets/images/img-number-03.png)
+}
+
+main section#decolar .list-items ol li+li+li p {
+	padding-left: 24px;
+	width: 250px
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li+li p:before {
+		display: inline-block;
+		width: 5px;
+		height: 30px;
+		content: '';
+		position: absolute;
+		top: -12px;
+		left: -333px;
+		right: inherit;
+		bottom: inherit;
+		background-color: #000
+	}
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li+li p:after {
+		display: inline-block;
+		width: 210px;
+		height: 5px;
+		content: '';
+		position: absolute;
+		top: -15px;
+		left: -333px;
+		right: inherit;
+		bottom: inherit;
+		background-color: #000
+	}
+}
+
+main section#decolar .list-items ol li+li+li+li {
+	width: 100%;
+	background-color: #f5bb6e
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li+li+li {
+		top: -365px;
+		left: 80px;
+		width: 400px;
+		height: 250px
+	}
+}
+
+main section#decolar .list-items ol li+li+li+li:before {
+	background-image: url(../assets/images/img-number-04.png)
+}
+
+main section#decolar .list-items ol li+li+li+li p {
+	padding-left: 24px;
+	width: 250px
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li+li+li p:before {
+		display: inline-block;
+		width: 5px;
+		height: 30px;
+		content: '';
+		position: absolute;
+		top: inherit;
+		left: 50px;
+		right: inherit;
+		bottom: -150px;
+		background-color: #000
+	}
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li+li+li p:after {
+		display: inline-block;
+		width: 220px;
+		height: 5px;
+		content: '';
+		position: absolute;
+		top: inherit;
+		left: 50px;
+		right: inherit;
+		bottom: -150px;
+		background-color: #000
+	}
+}
+
+main section#decolar .list-items ol li+li+li+li+li {
+	width: 100%;
+	background-color: #7dc5ce
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li+li+li+li {
+		top: -430px;
+		left: 420px;
+		z-index: 2;
+		width: 400px;
+		height: 250px
+	}
+}
+
+main section#decolar .list-items ol li+li+li+li+li:before {
+	background-image: url(../assets/images/img-number-05.png)
+}
+
+main section#decolar .list-items ol li+li+li+li+li p {
+	padding-left: 24px;
+	width: 250px
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li+li+li+li p:before {
+		display: inline-block;
+		width: 5px;
+		height: 20px;
+		content: '';
+		position: absolute;
+		top: -50px;
+		left: inherit;
+		right: -130px;
+		bottom: inherit;
+		background-color: #000
+	}
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li+li+li+li p:after {
+		display: inline-block;
+		width: 90px;
+		height: 5px;
+		content: '';
+		position: absolute;
+		top: -50px;
+		left: inherit;
+		right: -130px;
+		bottom: inherit;
+		background-color: #000
+	}
+}
+
+main section#decolar .list-items ol li+li+li+li+li+li {
+	background-color: #8eb74a
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li+li+li+li+li {
+		top: -620px;
+		left: 620px;
+		z-index: 1;
+		width: 400px;
+		height: 250px;
+		padding: 336px 24px 24px 112px;
+		align-items: flex-end
+	}
+}
+
+main section#decolar .list-items ol li+li+li+li+li+li:before {
+	background-image: url(../assets/images/img-number-06.png)
+}
+
+@media(min-width:82.5625em) {
+	main section#decolar .list-items ol li+li+li+li+li+li:before {
+		margin: auto auto 24px 24px
+	}
+}
+
+main section#decolar .list-items ol li+li+li+li+li+li p {
+	padding-left: 24px;
+	width: 250px
+}
+
+main section#decolar .list-items ol li+li+li+li+li+li p:before {
+	display: none
+}
+
+main section#decolar .list-items ol li+li+li+li+li+li p:after {
+	display: none
+}
+
+main .backgroundImage {
+	position: relative
+}
+
+@media(min-width:82.5625em) {
+	main .backgroundImage:before {
+		display: inline-block;
+		width: 1000em;
+		height: 68%;
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto
+	}
+}
+
+main .backgroundImage--magenta:before {
+	height: 67.4%;
+	margin: auto auto 70px -999em;
+	background-color: #f63a9d
+}
+
+main .backgroundImage--purple:before {
+	height: 67.6%;
+	margin: auto -999em 7.7px auto;
+	background-color: #5060ac
+}
+
+main .backgroundImage--cyano:before {
+	height: 84%;
+	margin: auto auto 8px -999em;
+	background-color: #18c0d4
+}
