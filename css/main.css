@@ -185,7 +185,7 @@ a:hover{
 .padding-left-10-per-important{
   padding-left: 10% !important;
 }
-@media screen and (min-width: 990px) and (max-width: 1024px){
+@media screen and (min-width: 990px) and (max-width: 1200px){
   .nav-item{
     font-size: 12px;
     padding-top: 4px;
