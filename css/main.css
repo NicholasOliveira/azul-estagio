@@ -4,7 +4,33 @@ body{
 a{
   text-decoration: none !important;
 }
-
+.ico-header-color{
+  color: #0f2e50;
+  font-size: 18px;
+  padding: 0px 10px;
+}
+.ico-facebook:hover{
+color: #3b5998;
+}
+.ico-twitter:hover{
+  color: #00acee;
+}
+.ico-youtube:hover{
+  color: #c4302b;
+}
+.ico-whatsapp:hover{
+  color: #34af23;
+}
+.ico-instagram:hover{
+  color: #517fa4;
+}
+.ico-linkedin:hover{
+  color: #007bb6;
+}
+.link-redes-footer{
+  text-decoration: none;
+  color: #ffffff;
+}
 a:hover{
   text-decoration: none !important;
 }
@@ -20,6 +46,9 @@ a:hover{
 .z-index-0{
   z-index: 0;
 }
+.width-5px{
+  width: 5px;
+}
 .top--65{
   top: -65px;
 }
@@ -30,6 +59,9 @@ a:hover{
 }
 .spacer-70{
   padding: 35px 0px;
+}
+.spacer-20{
+  padding: 10px 0px;
 }
 .listagem-match{
   list-style: none;
@@ -55,8 +87,14 @@ a:hover{
 .w-100{
   width: 100%;
 }
+.max-width-980-important{
+  max-width: 980px !important;
+}
 .max-width-560-important{
   max-width: 560px !important;
+}
+.max-width-250{
+  max-width: 250px;
 }
 .background-ffffff{
   background-color: #ffffff;
@@ -108,6 +146,15 @@ a:hover{
 .paddng-right-35-important{
   padding-right: 35px !important;
 }
+.padding-bottom-20{
+  padding-bottom: 20px;
+} 
+.padding-bottom-10{
+  padding-bottom: 10px;
+} 
+.padding-top-80{
+  padding-top: 80px;
+}
 .padding-50-0{
   padding: 50px 0px;
 }
@@ -155,6 +202,9 @@ a:hover{
 .font-45-22{
   font-size: 45px;
 }
+.font-32-22{
+  font-size: 32px;
+}
 .font-30-20{
   font-size: 30px;
 }
@@ -173,6 +223,12 @@ a:hover{
 .font-16-14{
   font-size: 16px;
 }
+.font-15-14{
+  font-size: 15px;
+}
+.font-12{
+  font-size: 12px;
+}
 .bold{
   font-weight: bold !important;
 }
@@ -185,6 +241,28 @@ a:hover{
 .padding-left-10-per-important{
   padding-left: 10% !important;
 }
+footer{
+  background-color: #0f2e50;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 32px 0px;
+}
+@media screen and (min-width: 992px){
+  .d-flex-lg{
+    display: flex;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1300px){
+  .lg-margin-0-important{
+    margin: 0px !important;
+  }
+  .lg-padding-20-0-important{
+    padding: 20px 0px !important;
+  }
+  .lg-padding-left-25-important{
+    padding-left: 25px !important;
+  }
+}
 @media screen and (min-width: 990px) and (max-width: 1200px){
   .nav-item{
     font-size: 12px;
@@ -192,6 +270,21 @@ a:hover{
   }
 }
 @media screen and (max-width: 768px){
+  .flex-md{
+    display: flex;
+  }
+  .justify-content-md-center{
+    justify-content: center;
+  } 
+  .justify-content-md-center{
+    align-items: center;
+  }
+  .text-center-md{
+    text-align: center;
+  }
+  .md-padding-left-25-important{
+    padding-left: 25px !important;
+  }
   .text-section-001{
     margin-top: 25px;
     margin-bottom: 30px;
@@ -220,6 +313,9 @@ a:hover{
   .font-45-22{
     font-size: 22px;
   }
+  .font-32-22{
+    font-size: 22px;
+  }
   .font-30-20{
     font-size: 20px;
   }
@@ -236,6 +332,9 @@ a:hover{
     font-size: 14px;
   }
   .font-16-14{
+    font-size: 14px;
+  }
+  .font-15-14{
     font-size: 14px;
   }
   .md-padding-left-0{
@@ -277,11 +376,20 @@ a:hover{
   .md-padding-20-important{
     padding: 20px !important;
   }
+  .md-padding-30-important{
+    padding: 30px 0px !important;
+  }
   .md-margin-0{
     margin: 0px;
   }
 }
 @media screen and (max-width: 575px){
+  .mb-padding-15-0-important{
+    padding: 15px 0px !important;
+  }
+  .mb-hide{
+    display: none;
+  }
   .direction-mb-column-reverse{
     flex-direction: column-reverse;
   }
