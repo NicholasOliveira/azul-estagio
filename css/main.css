@@ -244,6 +244,9 @@ a:hover{
 .font-12{
   font-size: 12px;
 }
+.font-11{
+  font-size: 11px;
+}
 .bold{
   font-weight: 600 !important;
 }
@@ -293,7 +296,7 @@ footer{
 @media screen and (max-width: 768px){
   main section#decolar .list-items ol li:before {
     top: -40px !important;
-    left: -25px !important;
+    left: -35px !important;
     font-size: 150px !important;
 }
   .md-padding-left-10{
