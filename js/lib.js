@@ -39,11 +39,19 @@ $(document).ready(function () {
 
   //Verifica se a Janela está no topo
   $(window).scroll(function () {
+
     if ($(this).scrollTop() > 100) {
       $('.scrollToTop').fadeIn();
     } else {
       $('.scrollToTop').fadeOut();
     }
+
+    if ($(this).scrollTop() > 5000) {
+      $('.scrollToTop').css("background-color", "#fff").css("padding", "0px 5px");
+    } else {
+      $('.scrollToTop').css("background-color", "transparent").css("padding", "0px 5px");
+    }
+
   });
 
   //Onde a mágia acontece! rs
