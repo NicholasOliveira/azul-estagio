@@ -24,7 +24,7 @@ function onScroll(event) {
     var currLink = $(this);
     var refElement = $(currLink.attr("href"));
     if (refElement.position() != undefined) {
-      if (refElement.position().top - 80 <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+      if (refElement.position().top - 83 <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
         $('.navbar-nav li a').removeClass("active");
         currLink.addClass("active");
       }
