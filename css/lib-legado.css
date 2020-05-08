@@ -443,7 +443,7 @@ main .backgroundImage {
 	}
 	main section#decolar .list-items ol li p{
 		position: relative;
-		left: -50px;
+		left: -70px;
 	}
 	main section#decolar .list-items ol li+li+li+li+li+li:before{
 		margin-top: 20px !important;
