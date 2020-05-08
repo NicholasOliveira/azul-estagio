@@ -8,6 +8,14 @@ header{
   position: fixed !important;
   z-index: 9999 !important;
 }
+.scrollToTop{   
+  position:fixed;
+  bottom:40px; 
+  right:40px;
+  display:none;
+  color: #0b1e40;
+  text-decoration: none;
+}
 .ico-header-color{
   color: #0f2e50;
   font-size: 18px;
