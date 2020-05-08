@@ -33,7 +33,6 @@
 		position: absolute;
 		top: 246px;
 		right: 150px;
-		background-image: url(../assets/images/img-plane-02.png);
 		background-size: 80%;
 		background-repeat: no-repeat;
 		background-position: center
@@ -82,7 +81,7 @@ main section#decolar .list-items ol li:before {
 	height: 150px;
 	content: '1';
 	top: -120px;
-	left: -41px;
+	left: -43px;
 	right: 0;
 	bottom: 0;
 	height: 150px;
@@ -163,7 +162,6 @@ main section#decolar .list-items ol li+li {
 main section#decolar .list-items ol li+li:before {
 	width: 70px;
 	height: 150px;
-	background-image: url(../assets/images/img-number-02.png);
 	content: '2';
 }
 
@@ -217,7 +215,6 @@ main section#decolar .list-items ol li+li+li {
 }
 
 main section#decolar .list-items ol li+li+li:before {
-	background-image: url(../assets/images/img-number-03.png);
 	content: '3';
 }
 
@@ -271,7 +268,6 @@ main section#decolar .list-items ol li+li+li+li {
 }
 
 main section#decolar .list-items ol li+li+li+li:before {
-	background-image: url(../assets/images/img-number-04.png);
 	content: '4';
 }
 
@@ -326,7 +322,6 @@ main section#decolar .list-items ol li+li+li+li+li {
 }
 
 main section#decolar .list-items ol li+li+li+li+li:before {
-	background-image: url(../assets/images/img-number-05.png);
 	content: '5';
 }
 
@@ -382,7 +377,6 @@ main section#decolar .list-items ol li+li+li+li+li+li {
 }
 
 main section#decolar .list-items ol li+li+li+li+li+li:before {
-	background-image: url(../assets/images/img-number-06.png);
 	content: '6';
 	margin-top: 210px !important;
 }
@@ -431,7 +425,7 @@ main .backgroundImage {
 			height: 150px;
 			content: '1';
 			top: -110px;
-			left: -42px;
+			left: -43px;
 			right: 0;
 			bottom: 0;
 			height: 150px;

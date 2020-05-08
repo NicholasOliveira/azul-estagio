@@ -4,6 +4,10 @@ body{
 a{
   text-decoration: none !important;
 }
+header{
+  position: fixed !important;
+  z-index: 9999 !important;
+}
 .ico-header-color{
   color: #0f2e50;
   font-size: 18px;
@@ -112,9 +116,9 @@ a:hover{
   color: #6d6e71;
 }
 .title-002{
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   border-bottom: 3px solid #0b1e40;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 .color-0b1{
   color: #0b1e40;
@@ -148,6 +152,9 @@ a:hover{
 }
 .padding-bottom-20{
   padding-bottom: 20px;
+} 
+.padding-bottom-15{
+  padding-bottom: 15px;
 } 
 .padding-bottom-10{
   padding-bottom: 10px;
@@ -230,13 +237,19 @@ a:hover{
   font-size: 12px;
 }
 .bold{
-  font-weight: bold !important;
+  font-weight: 600 !important;
+}
+strong{
+  font-weight: 600 !important;
 }
 .normal{
   font-weight: normal;
 }
 .lighter{
   font-weight: lighter;
+}
+.padding-left-14{
+  padding-left: 14px;
 }
 .padding-left-10-per-important{
   padding-left: 10% !important;
@@ -270,6 +283,17 @@ footer{
   }
 }
 @media screen and (max-width: 768px){
+  main section#decolar .list-items ol li:before {
+    top: -40px !important;
+    left: -25px !important;
+    font-size: 150px !important;
+}
+  .md-padding-left-10{
+    padding-left: 10px;
+  }
+  .md-br-inline br{
+    display: none !important;
+  }
   .flex-md{
     display: flex;
   }
